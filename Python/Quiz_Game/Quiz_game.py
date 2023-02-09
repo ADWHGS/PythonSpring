@@ -16,7 +16,7 @@ else:
     print("Incorrect!")
 
 answer = input("What does GPU stand for? ")
-if answer.lower() == "graphics processing":
+if answer.lower() == "graphics processing unit":
     print('Correct!')
     score == 1
 else:
@@ -30,11 +30,11 @@ else:
     print("Incorrect!")
 
 answer = input("What does PSU stand for? ")
-if answer.lower() == "power supply":
+if answer.lower() == "power supply unit":
     print('Correct!')
     score == 1
 else:
     print("Incorrect!")
 
-print("You got " + str(score) + "questions correct!")
+print("You got " + str(score) + " questions correct!")
 print("You got " + str((score / 4)* 100) + "%.")
